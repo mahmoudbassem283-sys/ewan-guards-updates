@@ -1,0 +1,30 @@
+{
+  "release": {
+    "files": {
+      "SHARING_AR.md": {
+        "sha256": "4a53c65092a93def05c2423f1585cdefabd066e35f1f19a97c79d1a1e9a8c911",
+        "size": 17210
+      },
+      "share_server.py": {
+        "sha256": "3604cec1dd0f44a7ab8e7aad62fdc85563ec60915d70579128999d6114cd7bf0",
+        "size": 4386
+      },
+      "sharing.py": {
+        "sha256": "a059af53290bd2e83a9060011de8900bd97fae4dfb4cb73e877dfc6d5068147e",
+        "size": 20561
+      }
+    },
+    "loader": 1,
+    "notes": "إصلاح بدء وإيقاف المشاركة؛ انتظار عند تقييد الخدمة، وإيقاف إعادة المحاولة عند الرفض الدائم، مع الحفاظ على البيانات والصلاحيات والرابط. تسري تغييرات مشغل المشاركة عند تشغيله التالي.",
+    "product": "EwanGuardsSystem",
+    "requirements_sha256": "bb8aadc559e45c18facd40bb4cc5b623514ef4159c0dbda48921482e7ca340ba",
+    "sequence": 50,
+    "version": "4.9.1"
+  },
+  "signature": "o642ix7/kwG0ULnqz36iJcL1L5qAia6C4J9CspAm6keX2FACcRB12ZzXSqw2KoyJ8+59dV0aqEAXvR5lndqcCA==",
+  "download": {
+    "url": "https://raw.githubusercontent.com/mahmoudbassem283-sys/ewan-guards-updates/b3bcbd72be5cfd53143644bf60469271fab2e099/releases/EwanGuards_sharing491_SIGNED.zip",
+    "size": 16345,
+    "sha256": "9382fc4bed57edf13e8d961a75785c14051a7ba7ff57a0d517630e4428bebd20"
+  }
+}

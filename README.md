@@ -1,6 +1,6 @@
 # Ewan Guards signed updates
 
-Current release: **4.9.2**, sequence **51**.
+Current release: **4.9.3**, sequence **52**.
 
 Owner update source:
 
@@ -17,3 +17,5 @@ Validation: 180-test regression run, additional logout/lease/logo/native-click c
 The updater verifies the pinned signing key, package SHA-256, size and payload manifest. Packages are pinned to immutable commits. Installation remains an owner action inside the program.
 
 This repository contains signed distribution packages only. No customer databases, account credentials, configuration, backups or private signing keys are published.
+
+4.9.3: explicitly re-alerts when replacing an existing tagged notification; activates the updated worker and checks it before a test send. Cumulative package includes 4.9.1 and 4.9.2 changes. Validated with 30 targeted backend/updater tests, 8 device-UI assertions, repeated-push/worker-activation checks, and a supervised 4.9.2-to-4.9.3 HTTP upgrade with the VAPID key and a pre-existing device subscription preserved. Native popup presentation remains subject to browser/OS policy and a target-device check.

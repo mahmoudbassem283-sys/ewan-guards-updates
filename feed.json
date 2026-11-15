@@ -1,6 +1,10 @@
 {
   "release": {
     "files": {
+      "SHARING_AR.md": {
+        "sha256": "4a53c65092a93def05c2423f1585cdefabd066e35f1f19a97c79d1a1e9a8c911",
+        "size": 17210
+      },
       "UPDATES_AR.md": {
         "sha256": "2ac0b4debf6f24378c28313fb1697af44428e0f8a10099408073d76e91e38fb9",
         "size": 9987
@@ -22,15 +26,15 @@
         "size": 80490
       },
       "app/static/js/push-sw.js": {
-        "sha256": "49339873b9ba7fce96e2b5be0d779224a25da6af10d8721c89c30ca41afb155b",
-        "size": 1149
+        "sha256": "ea9fee2ae04ba64cfe9fd1a5d6386bcfe03fcdb9d0a2c4c5dbd19a7ebfa055bd",
+        "size": 1240
       },
       "app/static/js/webpush.js": {
-        "sha256": "20c04fca4cad8e670e74d6684366f26eb6df7b0a84cb701736448542363c3e97",
-        "size": 6098
+        "sha256": "a5837cf5d1d77f676e6094f0c932f0ad098af918e75a03f7264330799f8cbf84",
+        "size": 7151
       },
       "app/templates/app.html": {
-        "sha256": "ab2e5e894af8128283fea71b2f0c8fada368136fa3a290430604c52f40e3eb85",
+        "sha256": "1272ad4c157dfd823cde2f6a2019b9aa9099dc6839e7602debad12c899a8ae99",
         "size": 1104
       },
       "app/webpush.py": {
@@ -40,19 +44,27 @@
       "desktop_notify.py": {
         "sha256": "5cc810d6a5cce883de365ac2bc1a03127031b27f178987515d636ded81cd2caf",
         "size": 1290
+      },
+      "share_server.py": {
+        "sha256": "3604cec1dd0f44a7ab8e7aad62fdc85563ec60915d70579128999d6114cd7bf0",
+        "size": 4386
+      },
+      "sharing.py": {
+        "sha256": "a059af53290bd2e83a9060011de8900bd97fae4dfb4cb73e877dfc6d5068147e",
+        "size": 20561
       }
     },
     "loader": 1,
-    "notes": "إشعارات اختيارية لكل جهاز بعد إغلاق الصفحة حسب صلاحيات المشاهدة الحالية، بشعار إيوان واسم البرنامج وملخص واضح، وصفحة تفاصيل محمية. يلزم تفعيل الإذن واختبار الوصول على كل جهاز؛ الجهاز الأساسي يبقى شغّالًا ومتصلًا. على آيفون تُستخدم نسخة الشاشة الرئيسية iOS 16.4 أو أحدث.",
+    "notes": "إصلاح إعادة إظهار الإشعار عند تحديث تنبيه سابق بنفس المعرّف، وتحديث مكوّن الإشعارات قبل الاختبار. يشمل إصلاحات 4.9.1 و4.9.2 ويحافظ على البيانات والصلاحيات والرابط والاشتراكات.",
     "product": "EwanGuardsSystem",
     "requirements_sha256": "bb8aadc559e45c18facd40bb4cc5b623514ef4159c0dbda48921482e7ca340ba",
-    "sequence": 51,
-    "version": "4.9.2"
+    "sequence": 52,
+    "version": "4.9.3"
   },
-  "signature": "aXONkRa7l3w04Hs7Hp0Dks7j6P6TcgB/CM4pSMB4VADUVgO67md6iqxmdONGE4pvUkfIKSgJXXhShG7r+xsrDQ==",
+  "signature": "4nR4AA5RntGVg5XFRJFBhCEpZHpaxztRK1cgVspRcICf1HzBrI2+OHngbKZf+fj8sBRLaTVRdVQM914eWBCAAA==",
   "download": {
-    "url": "https://raw.githubusercontent.com/mahmoudbassem283-sys/ewan-guards-updates/5ca4549cc3fcf7000573610a8d33ab81eedcbfbe/releases/EwanGuards_notifications492_SIGNED.zip",
-    "size": 63239,
-    "sha256": "65d66a56fac9eb5408670bb18f9fd41b5d3db9ed375e63da076aab34496e763d"
+    "url": "https://raw.githubusercontent.com/mahmoudbassem283-sys/ewan-guards-updates/00c30d48752fd170b86930e980f4e174b1aa6332/releases/EwanGuards_notifications493_SIGNED.zip",
+    "size": 79164,
+    "sha256": "353a3426fa6d5425b48054ea13f8be59612a725bd2d3bda0de215e35c4fce8ab"
   }
 }

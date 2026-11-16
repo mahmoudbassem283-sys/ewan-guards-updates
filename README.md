@@ -1,6 +1,6 @@
 # Ewan Guards signed updates
 
-Current release: **4.9.3**, sequence **52**.
+Current release: **4.9.4**, sequence **53**.
 
 Owner update source:
 
@@ -19,3 +19,5 @@ The updater verifies the pinned signing key, package SHA-256, size and payload m
 This repository contains signed distribution packages only. No customer databases, account credentials, configuration, backups or private signing keys are published.
 
 4.9.3: explicitly re-alerts when replacing an existing tagged notification; activates the updated worker and checks it before a test send. Cumulative package includes 4.9.1 and 4.9.2 changes. Validated with 30 targeted backend/updater tests, 8 device-UI assertions, repeated-push/worker-activation checks, and a supervised 4.9.2-to-4.9.3 HTTP upgrade with the VAPID key and a pre-existing device subscription preserved. Native popup presentation remains subject to browser/OS policy and a target-device check.
+
+4.9.4: remaining-duration columns for licenses, cars and driver licenses, calculated against the server's current date. Column settings use section/table selection; label settings are grouped by section with search, excluding record values and national IDs. Existing labels, ordering and visibility are preserved through a one-time migration. Validated with 186 regression tests, 14 settings/duration UI assertions, 9 existing column-configuration UI checks, and a supervised signed 4.9.3-to-4.9.4 upgrade with business records, Push subscriptions and customized/hidden license columns preserved. Published to this public update repository with the owner's explicit approval.

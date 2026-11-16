@@ -6,8 +6,8 @@
         "size": 17210
       },
       "UPDATES_AR.md": {
-        "sha256": "2ac0b4debf6f24378c28313fb1697af44428e0f8a10099408073d76e91e38fb9",
-        "size": 9987
+        "sha256": "a38bc73b8eebd66c6c2de5dcd6ea55405a3478e6f952d2e3604921d2b60bdc77",
+        "size": 11472
       },
       "app/__init__.py": {
         "sha256": "48819e83a7a58fc39a001e7d9540805572e06aabd54ee424553d39fda01054d3",
@@ -17,13 +17,21 @@
         "sha256": "46329adea67ee96dfebce3ed75fb790a4a314dd66cde191138668264491481db",
         "size": 62776
       },
+      "app/column_layout.py": {
+        "sha256": "16da629431726c4593bbc9b227d913f749478bd582a75fa2def65e9a551e52b9",
+        "size": 6876
+      },
       "app/desktop_notifications.py": {
         "sha256": "f42696cfe374914745fc80395effcc28736d7d3022755e8a4b1a3a9d91834ea2",
         "size": 12133
       },
       "app/static/js/app.js": {
-        "sha256": "44d295eb2aa817c65a476a4e6640b318b9623601ab8ada975171ec2481b15b25",
-        "size": 80490
+        "sha256": "65391c5bd75ea3d64a71c900a82c072899d1794672e1bdb684a35da2dfb422ed",
+        "size": 81385
+      },
+      "app/static/js/customize.js": {
+        "sha256": "192ee59fe980147fe54fc87d826c2d484a26aa4721129fbf18aa74527d4313d4",
+        "size": 36285
       },
       "app/static/js/push-sw.js": {
         "sha256": "ea9fee2ae04ba64cfe9fd1a5d6386bcfe03fcdb9d0a2c4c5dbd19a7ebfa055bd",
@@ -34,7 +42,7 @@
         "size": 7151
       },
       "app/templates/app.html": {
-        "sha256": "1272ad4c157dfd823cde2f6a2019b9aa9099dc6839e7602debad12c899a8ae99",
+        "sha256": "83a6cd11eb4d86c054e068758aa5faafcfb37511db2bd0c878838a2754efeae5",
         "size": 1104
       },
       "app/webpush.py": {
@@ -55,16 +63,16 @@
       }
     },
     "loader": 1,
-    "notes": "إصلاح إعادة إظهار الإشعار عند تحديث تنبيه سابق بنفس المعرّف، وتحديث مكوّن الإشعارات قبل الاختبار. يشمل إصلاحات 4.9.1 و4.9.2 ويحافظ على البيانات والصلاحيات والرابط والاشتراكات.",
+    "notes": "إضافة المدة المتبقية للتراخيص والسيارات ورخص السائقين، وتنظيم إعدادات الأعمدة والمسميات حسب القسم مع بحث أوضح، والحفاظ على البيانات والصلاحيات والتخصيصات المحفوظة. حزمة تراكمية تشمل إصلاحات المشاركة والإشعارات السابقة.",
     "product": "EwanGuardsSystem",
     "requirements_sha256": "bb8aadc559e45c18facd40bb4cc5b623514ef4159c0dbda48921482e7ca340ba",
-    "sequence": 52,
-    "version": "4.9.3"
+    "sequence": 53,
+    "version": "4.9.4"
   },
-  "signature": "4nR4AA5RntGVg5XFRJFBhCEpZHpaxztRK1cgVspRcICf1HzBrI2+OHngbKZf+fj8sBRLaTVRdVQM914eWBCAAA==",
+  "signature": "O2ySDkSD6u3eF35Qnf54oCgt8FTHrHErKatypp/wH+tfUP4CW7uAHAktZUetWFrv+6tPncpPO/MebtLQxyBlBQ==",
   "download": {
-    "url": "https://raw.githubusercontent.com/mahmoudbassem283-sys/ewan-guards-updates/00c30d48752fd170b86930e980f4e174b1aa6332/releases/EwanGuards_notifications493_SIGNED.zip",
-    "size": 79164,
-    "sha256": "353a3426fa6d5425b48054ea13f8be59612a725bd2d3bda0de215e35c4fce8ab"
+    "url": "https://raw.githubusercontent.com/mahmoudbassem283-sys/ewan-guards-updates/e85c78578bd822c4b2426153142170fcf4148504/releases/EwanGuards_settings494_SIGNED.zip",
+    "size": 92890,
+    "sha256": "0d45a75919124d9f6c3d4face055435c09f6b665efb7d2dfdd5e4274a83ace37"
   }
 }

@@ -6,8 +6,8 @@
         "size": 17210
       },
       "UPDATES_AR.md": {
-        "sha256": "a38bc73b8eebd66c6c2de5dcd6ea55405a3478e6f952d2e3604921d2b60bdc77",
-        "size": 11472
+        "sha256": "3dd285f43cf3141b575004de1a4b15b2b99e9ab89f6f891e6adcac798c224887",
+        "size": 12634
       },
       "app/__init__.py": {
         "sha256": "48819e83a7a58fc39a001e7d9540805572e06aabd54ee424553d39fda01054d3",
@@ -25,13 +25,21 @@
         "sha256": "f42696cfe374914745fc80395effcc28736d7d3022755e8a4b1a3a9d91834ea2",
         "size": 12133
       },
+      "app/record_photos.py": {
+        "sha256": "cc81d891d114d67e883b4a009a74837b0932b1c1be5024dce6efc9802916a414",
+        "size": 7639
+      },
       "app/static/js/app.js": {
-        "sha256": "65391c5bd75ea3d64a71c900a82c072899d1794672e1bdb684a35da2dfb422ed",
-        "size": 81385
+        "sha256": "130075b785ee8225da8bdffe152fc5c5953342df94dc133ba5046f6f346bfbaf",
+        "size": 81483
       },
       "app/static/js/customize.js": {
         "sha256": "192ee59fe980147fe54fc87d826c2d484a26aa4721129fbf18aa74527d4313d4",
         "size": 36285
+      },
+      "app/static/js/operations.js": {
+        "sha256": "f4b0b18d3134d0132d9462382a09a192d53b09b41dd19f4014c7d6e9366725f8",
+        "size": 4922
       },
       "app/static/js/push-sw.js": {
         "sha256": "ea9fee2ae04ba64cfe9fd1a5d6386bcfe03fcdb9d0a2c4c5dbd19a7ebfa055bd",
@@ -42,7 +50,7 @@
         "size": 7151
       },
       "app/templates/app.html": {
-        "sha256": "83a6cd11eb4d86c054e068758aa5faafcfb37511db2bd0c878838a2754efeae5",
+        "sha256": "aa6524ddcac560d8630d2a22c8f7ec98b6ae586ea3ce41681dcd0baed2346f7c",
         "size": 1104
       },
       "app/webpush.py": {
@@ -63,16 +71,16 @@
       }
     },
     "loader": 1,
-    "notes": "إضافة المدة المتبقية للتراخيص والسيارات ورخص السائقين، وتنظيم إعدادات الأعمدة والمسميات حسب القسم مع بحث أوضح، والحفاظ على البيانات والصلاحيات والتخصيصات المحفوظة. حزمة تراكمية تشمل إصلاحات المشاركة والإشعارات السابقة.",
+    "notes": "إضافة رفع وتغيير وحذف صورة رخصة السائق من نافذة التعديل، وإظهار مصغّر قابل للتكبير بجوار الاسم، بنفس طريقة السيارات وصلاحيات القسم. الحفاظ على الصور والبيانات والتواريخ والتخصيصات الحالية. حزمة تراكمية.",
     "product": "EwanGuardsSystem",
     "requirements_sha256": "bb8aadc559e45c18facd40bb4cc5b623514ef4159c0dbda48921482e7ca340ba",
-    "sequence": 53,
-    "version": "4.9.4"
+    "sequence": 54,
+    "version": "4.9.5"
   },
-  "signature": "O2ySDkSD6u3eF35Qnf54oCgt8FTHrHErKatypp/wH+tfUP4CW7uAHAktZUetWFrv+6tPncpPO/MebtLQxyBlBQ==",
+  "signature": "vkdmbR+7EcWEInGvOCDgMFSpeB4n4Z7lCdSjvAOaFoIleoTDsS4CSNcTKYPSnIjn0RHclK7axu97LKwon+RYCw==",
   "download": {
-    "url": "https://raw.githubusercontent.com/mahmoudbassem283-sys/ewan-guards-updates/e85c78578bd822c4b2426153142170fcf4148504/releases/EwanGuards_settings494_SIGNED.zip",
-    "size": 92890,
-    "sha256": "0d45a75919124d9f6c3d4face055435c09f6b665efb7d2dfdd5e4274a83ace37"
+    "url": "https://raw.githubusercontent.com/mahmoudbassem283-sys/ewan-guards-updates/f337970097f52258e5f3981e34e9cd895aeb1d0b/releases/EwanGuards_driverPhotos495_SIGNED.zip",
+    "size": 97944,
+    "sha256": "dd0fdf34ccf48cfea3dbfb41ec41d8f1269c39db0fdd6a0a205248e17ae8e1e3"
   }
 }

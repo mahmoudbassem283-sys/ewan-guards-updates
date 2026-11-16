@@ -1,6 +1,6 @@
 # Ewan Guards signed updates
 
-Current release: **4.9.4**, sequence **53**.
+Current release: **4.9.5**, sequence **54**.
 
 Owner update source:
 
@@ -21,3 +21,5 @@ This repository contains signed distribution packages only. No customer database
 4.9.3: explicitly re-alerts when replacing an existing tagged notification; activates the updated worker and checks it before a test send. Cumulative package includes 4.9.1 and 4.9.2 changes. Validated with 30 targeted backend/updater tests, 8 device-UI assertions, repeated-push/worker-activation checks, and a supervised 4.9.2-to-4.9.3 HTTP upgrade with the VAPID key and a pre-existing device subscription preserved. Native popup presentation remains subject to browser/OS policy and a target-device check.
 
 4.9.4: remaining-duration columns for licenses, cars and driver licenses, calculated against the server's current date. Column settings use section/table selection; label settings are grouped by section with search, excluding record values and national IDs. Existing labels, ordering and visibility are preserved through a one-time migration. Validated with 186 regression tests, 14 settings/duration UI assertions, 9 existing column-configuration UI checks, and a supervised signed 4.9.3-to-4.9.4 upgrade with business records, Push subscriptions and customized/hidden license columns preserved. Published to this public update repository with the owner's explicit approval.
+
+4.9.5: optional driver-license photos in the driver editor, with upload/replace/remove and a clickable thumbnail next to the driver's name. Uses the existing vehicle-section view/edit/delete permissions and backup store. Migrates the photo table without losing vehicle/item images. Validated with 191 regression tests, 9 driver-photo UI assertions including an actual upload, and a supervised 4.9.4-to-4.9.5 HTTP upgrade preserving existing images, business fields, settings and Push subscriptions. Published with the owner's explicit approval. No actual driver photographs or customer records are included in this code package.

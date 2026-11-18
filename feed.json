@@ -6,8 +6,8 @@
         "size": 17210
       },
       "UPDATES_AR.md": {
-        "sha256": "074ffc703e6cc89f292d1bb7f691f50a876803604d40a6d616c83fe85a2b82f1",
-        "size": 16174
+        "sha256": "66f96c85badecf22dc05fab416cc372653cec36454ae14e8594151f556c0d967",
+        "size": 16860
       },
       "app/__init__.py": {
         "sha256": "9a687e8b8b8cc18d3096421732e938725e86249bc10c310c3fbd6ee2c529168e",
@@ -34,35 +34,35 @@
         "size": 7639
       },
       "app/static/css/operations.css": {
-        "sha256": "1cf057da91d0adfc7b2d491d3d21b8f13f0f43443d6371bebec5be0a30b9bc05",
-        "size": 12410
+        "sha256": "dd86d7fd5fe98b08fa5939710e60cf222cf6ec5099be0a9e8b7ad955cf00dc2a",
+        "size": 13338
       },
       "app/static/js/app.js": {
-        "sha256": "0174b9923dec309eb7aaaf7c39a8e5be8a84ecb3d8cdc683c6de28910b7a6f9e",
-        "size": 82395
+        "sha256": "47b78941ca45e60547b9a02b77e0b19c3943c2aa4e045c675ac1d658d481f7de",
+        "size": 82503
       },
       "app/static/js/customize.js": {
         "sha256": "25f51113ae5ab97d799ea25ad8cd93a74d865479931ed163b26b066ec2153159",
         "size": 36341
       },
       "app/static/js/operations.js": {
-        "sha256": "8e5414831d478061a9cd36644a9a45fdc61794807381a8c5f9e6035aab3d3324",
-        "size": 5006
+        "sha256": "46256612e12916de5303bdfba3dc5e8d05ab39b76a35eaa96736936aab12d189",
+        "size": 7509
       },
       "app/static/js/push-sw.js": {
         "sha256": "ea9fee2ae04ba64cfe9fd1a5d6386bcfe03fcdb9d0a2c4c5dbd19a7ebfa055bd",
         "size": 1240
       },
       "app/static/js/vehicle-monthly.js": {
-        "sha256": "9e452e2f710eb60e9448ccb35c09d1292c088ea92bf790f10a72ac702b86e37a",
-        "size": 10170
+        "sha256": "b53ec7cd6965c24f85abff9e390447699a85e30ff89834e9cfae3ca7b79da097",
+        "size": 10912
       },
       "app/static/js/webpush.js": {
         "sha256": "a5837cf5d1d77f676e6094f0c932f0ad098af918e75a03f7264330799f8cbf84",
         "size": 7151
       },
       "app/templates/app.html": {
-        "sha256": "5656f28f2a07459200083134f298c3f0e742c8e8253f55f5acc85d913f1ccead",
+        "sha256": "34b02dad667fdb4cc92d8903aeb7976a4cbd07e781c376b391e9d78870b5696a",
         "size": 1166
       },
       "app/vehicle_monthly.py": {
@@ -87,16 +87,16 @@
       }
     },
     "loader": 1,
-    "notes": "توسيط عناوين ومحتوى أعمدة الصور والتحديث الشهري حتى مع تغيير المسميات. تصغير صورة الشهر والخانات الفارغة إلى مقاس صور السجلات مع بقاء الصورة الكاملة والأرشيف عند الضغط. حزمة تراكمية تحافظ على البيانات والتخصيصات.",
+    "notes": "طباعة صورة التحديث الشهري الحالية أو أي نسخة سابقة أو جميع نسخ أرشيف السيارة، كل نسخة في صفحة مستقلة. طباعة صورة العمود الأول وحدها من نافذة تكبير الصورة للسيارات ورخص السائقين والتراخيص والمعدات. احترام صلاحية الطباعة وانتظار تحميل الصور. حزمة تراكمية.",
     "product": "EwanGuardsSystem",
     "requirements_sha256": "bb8aadc559e45c18facd40bb4cc5b623514ef4159c0dbda48921482e7ca340ba",
-    "sequence": 56,
-    "version": "4.9.7"
+    "sequence": 57,
+    "version": "4.9.8"
   },
-  "signature": "IhPM6d0TNhLQzgE3KRymD8Hmf6xl5hYbf0sT7KfIT3MB5STXU+Y0XYRlY7NNig08c1BWDlOuMQp8XJhjwt2eCA==",
+  "signature": "K7dIJ/Q4msCDMfBdAxLQI1ekHbkr08mOAEmLh47SqNeHp/HGPQ0uHM6n+rvDkYbsKSk94zOWzyMIbNjAb4rKBA==",
   "download": {
-    "url": "https://raw.githubusercontent.com/mahmoudbassem283-sys/ewan-guards-updates/d9b783a9432b884a3d5d57184f0ea337d33fb0a8/releases/EwanGuards_alignment497_SIGNED.zip",
-    "size": 118195,
-    "sha256": "c625e4fa93dc0fbbc8b40c88e09ff9537f7ef961ee791b474ca0d2379fab4860"
+    "url": "https://raw.githubusercontent.com/mahmoudbassem283-sys/ewan-guards-updates/4f13a5ba72b56eb5626a0ce10dc4803e5a6197d2/releases/EwanGuards_print498_SIGNED.zip",
+    "size": 119656,
+    "sha256": "4150423571bf79769e76633a8fee54ecd5493146540053985703ce38710fc172"
   }
 }

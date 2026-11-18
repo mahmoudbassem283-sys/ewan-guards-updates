@@ -1,6 +1,6 @@
 # Ewan Guards signed updates
 
-Current release: **4.9.7**, sequence **56**.
+Current release: **4.9.8**, sequence **57**.
 
 Owner update source:
 
@@ -27,3 +27,5 @@ This repository contains signed distribution packages only. No customer database
 4.9.6: central show/hide control for the vehicle follow-up tab; separate first image columns for vehicles, driver licenses, licenses and equipment; document-date controls inside vehicle/driver editors. Adds an actual monthly PNG sheet with four named angles and the Arabic month/year in the image, immutable per-month revisions, latest-month display, protected image/ZIP downloads, and backup/restore support using the existing attachment store. Validated with 198 regression tests, 17 monthly/vehicle UI assertions, 9 existing driver-photo UI assertions, and a supervised 4.9.5-to-4.9.6 upgrade preserving business records, photos, column customizations and Push subscriptions. Published with explicit owner approval. No user photographs, records, credentials or private signing key are included in the update package.
 
 4.9.7: center photo/monthly headers and cells by stable column identity, including renamed columns; keep both saved monthly sheets and empty four-angle sheets at the primary thumbnail size (84 × 66 pixels). Full image and archive remain available on click. Validated with 17 functional monthly/vehicle UI assertions, JavaScript syntax checks and signed-package verification. Browser visual QA was unavailable because the remote browser could not reach the local test server. Published under the owner's standing authorization for code-only update packages.
+
+4.9.8: standalone image printing for primary car, driver-license, license and equipment photos. Monthly archive printing supports the selected revision or all current/previous immutable revisions, one image per A4 page with vehicle/month/revision/date captions. Checks section print permission, waits for all selected images, aborts on load failure, and restores the page after print/cancel. Validated with 34 functional DOM assertions including actual archive uploads and isolated print-content selection, JavaScript syntax checks and signed-package verification. Native print-dialog layout remains a target-device acceptance check. Published with explicit owner approval; no customer photos, records, credentials or private signing key are included.

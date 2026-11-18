@@ -6,8 +6,8 @@
         "size": 17210
       },
       "UPDATES_AR.md": {
-        "sha256": "235480aefc259a654db4fa77167969bf3ec78ed4a10b7573e3a7adbab25c69e8",
-        "size": 15779
+        "sha256": "074ffc703e6cc89f292d1bb7f691f50a876803604d40a6d616c83fe85a2b82f1",
+        "size": 16174
       },
       "app/__init__.py": {
         "sha256": "9a687e8b8b8cc18d3096421732e938725e86249bc10c310c3fbd6ee2c529168e",
@@ -34,12 +34,12 @@
         "size": 7639
       },
       "app/static/css/operations.css": {
-        "sha256": "9f7e9d768919577cbe0f6325e2e0aeaea231eb0c163c35202989f29cd1585a95",
-        "size": 10799
+        "sha256": "1cf057da91d0adfc7b2d491d3d21b8f13f0f43443d6371bebec5be0a30b9bc05",
+        "size": 12410
       },
       "app/static/js/app.js": {
-        "sha256": "0c1da6ec7e73fd0a70c5fbef57edbeb9d0e1b9561728faf454b095278b087f1a",
-        "size": 82349
+        "sha256": "0174b9923dec309eb7aaaf7c39a8e5be8a84ecb3d8cdc683c6de28910b7a6f9e",
+        "size": 82395
       },
       "app/static/js/customize.js": {
         "sha256": "25f51113ae5ab97d799ea25ad8cd93a74d865479931ed163b26b066ec2153159",
@@ -54,15 +54,15 @@
         "size": 1240
       },
       "app/static/js/vehicle-monthly.js": {
-        "sha256": "9bf8949cdeae6d5efae8f6431c5162d7a87a816e8c7d8b60eb70bdff85443a5e",
-        "size": 10110
+        "sha256": "9e452e2f710eb60e9448ccb35c09d1292c088ea92bf790f10a72ac702b86e37a",
+        "size": 10170
       },
       "app/static/js/webpush.js": {
         "sha256": "a5837cf5d1d77f676e6094f0c932f0ad098af918e75a03f7264330799f8cbf84",
         "size": 7151
       },
       "app/templates/app.html": {
-        "sha256": "07451e87289c06e328999ce500b68f0649d419caabd27ed20feaf9d454c7789f",
+        "sha256": "5656f28f2a07459200083134f298c3f0e742c8e8253f55f5acc85d913f1ccead",
         "size": 1166
       },
       "app/vehicle_monthly.py": {
@@ -87,16 +87,16 @@
       }
     },
     "loader": 1,
-    "notes": "إظهار وإخفاء بنود المتابعة، وفصل أعمدة الصور للسيارات والرخص والتراخيص والمعدات، ونقل تعديل التواريخ لنافذة تعديل السجل. إضافة صورة التحديث الشهري المجمعة للجهات الأربع باسم الشهر والسنة، مع أرشيف نسخ محفوظ وتنزيل الصورة وملف الشهر والنسخ الاحتياطي. الحفاظ على البيانات والتخصيصات. حزمة تراكمية.",
+    "notes": "توسيط عناوين ومحتوى أعمدة الصور والتحديث الشهري حتى مع تغيير المسميات. تصغير صورة الشهر والخانات الفارغة إلى مقاس صور السجلات مع بقاء الصورة الكاملة والأرشيف عند الضغط. حزمة تراكمية تحافظ على البيانات والتخصيصات.",
     "product": "EwanGuardsSystem",
     "requirements_sha256": "bb8aadc559e45c18facd40bb4cc5b623514ef4159c0dbda48921482e7ca340ba",
-    "sequence": 55,
-    "version": "4.9.6"
+    "sequence": 56,
+    "version": "4.9.7"
   },
-  "signature": "jk/rz2SJKla+J5ydt/7bE17fEKSQasNtgW9cyVwXxIudAzqp4k8FEwHaGMJGDzyNvkuW1zRLkRXOYMMxVNQvDw==",
+  "signature": "IhPM6d0TNhLQzgE3KRymD8Hmf6xl5hYbf0sT7KfIT3MB5STXU+Y0XYRlY7NNig08c1BWDlOuMQp8XJhjwt2eCA==",
   "download": {
-    "url": "https://raw.githubusercontent.com/mahmoudbassem283-sys/ewan-guards-updates/29a43e66274d2b58c6f2fc160f2a63e7fc544fcc/releases/EwanGuards_monthly496_SIGNED.zip",
-    "size": 117813,
-    "sha256": "934172f83028c4ada32b2b2eb4a4c64bd2f506541db5122f92a10ac730380b3f"
+    "url": "https://raw.githubusercontent.com/mahmoudbassem283-sys/ewan-guards-updates/d9b783a9432b884a3d5d57184f0ea337d33fb0a8/releases/EwanGuards_alignment497_SIGNED.zip",
+    "size": 118195,
+    "sha256": "c625e4fa93dc0fbbc8b40c88e09ff9537f7ef961ee791b474ca0d2379fab4860"
   }
 }

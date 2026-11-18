@@ -1,6 +1,6 @@
 # Ewan Guards signed updates
 
-Current release: **4.9.6**, sequence **55**.
+Current release: **4.9.7**, sequence **56**.
 
 Owner update source:
 
@@ -25,3 +25,5 @@ This repository contains signed distribution packages only. No customer database
 4.9.5: optional driver-license photos in the driver editor, with upload/replace/remove and a clickable thumbnail next to the driver's name. Uses the existing vehicle-section view/edit/delete permissions and backup store. Migrates the photo table without losing vehicle/item images. Validated with 191 regression tests, 9 driver-photo UI assertions including an actual upload, and a supervised 4.9.4-to-4.9.5 HTTP upgrade preserving existing images, business fields, settings and Push subscriptions. Published with the owner's explicit approval. No actual driver photographs or customer records are included in this code package.
 
 4.9.6: central show/hide control for the vehicle follow-up tab; separate first image columns for vehicles, driver licenses, licenses and equipment; document-date controls inside vehicle/driver editors. Adds an actual monthly PNG sheet with four named angles and the Arabic month/year in the image, immutable per-month revisions, latest-month display, protected image/ZIP downloads, and backup/restore support using the existing attachment store. Validated with 198 regression tests, 17 monthly/vehicle UI assertions, 9 existing driver-photo UI assertions, and a supervised 4.9.5-to-4.9.6 upgrade preserving business records, photos, column customizations and Push subscriptions. Published with explicit owner approval. No user photographs, records, credentials or private signing key are included in the update package.
+
+4.9.7: center photo/monthly headers and cells by stable column identity, including renamed columns; keep both saved monthly sheets and empty four-angle sheets at the primary thumbnail size (84 × 66 pixels). Full image and archive remain available on click. Validated with 17 functional monthly/vehicle UI assertions, JavaScript syntax checks and signed-package verification. Browser visual QA was unavailable because the remote browser could not reach the local test server. Published under the owner's standing authorization for code-only update packages.

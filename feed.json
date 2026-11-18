@@ -6,20 +6,24 @@
         "size": 17210
       },
       "UPDATES_AR.md": {
-        "sha256": "3dd285f43cf3141b575004de1a4b15b2b99e9ab89f6f891e6adcac798c224887",
-        "size": 12634
+        "sha256": "235480aefc259a654db4fa77167969bf3ec78ed4a10b7573e3a7adbab25c69e8",
+        "size": 15779
       },
       "app/__init__.py": {
-        "sha256": "48819e83a7a58fc39a001e7d9540805572e06aabd54ee424553d39fda01054d3",
-        "size": 7172
+        "sha256": "9a687e8b8b8cc18d3096421732e938725e86249bc10c310c3fbd6ee2c529168e",
+        "size": 7336
       },
       "app/api.py": {
-        "sha256": "46329adea67ee96dfebce3ed75fb790a4a314dd66cde191138668264491481db",
-        "size": 62776
+        "sha256": "067bb3b6a4012d9504d33bef91ec966fe504c25e337d4248377dbc8e44f91c08",
+        "size": 62993
       },
       "app/column_layout.py": {
-        "sha256": "16da629431726c4593bbc9b227d913f749478bd582a75fa2def65e9a551e52b9",
-        "size": 6876
+        "sha256": "9780781b246d4de27b5603f62550cad5414b6076eb9cedf868f84ebf9baca483",
+        "size": 9319
+      },
+      "app/customize.py": {
+        "sha256": "19ddb381eb853b79ea0578658d5f459f1cf499e541abd7b91963fa8ccfe1d9e1",
+        "size": 19597
       },
       "app/desktop_notifications.py": {
         "sha256": "f42696cfe374914745fc80395effcc28736d7d3022755e8a4b1a3a9d91834ea2",
@@ -29,29 +33,41 @@
         "sha256": "cc81d891d114d67e883b4a009a74837b0932b1c1be5024dce6efc9802916a414",
         "size": 7639
       },
+      "app/static/css/operations.css": {
+        "sha256": "9f7e9d768919577cbe0f6325e2e0aeaea231eb0c163c35202989f29cd1585a95",
+        "size": 10799
+      },
       "app/static/js/app.js": {
-        "sha256": "130075b785ee8225da8bdffe152fc5c5953342df94dc133ba5046f6f346bfbaf",
-        "size": 81483
+        "sha256": "0c1da6ec7e73fd0a70c5fbef57edbeb9d0e1b9561728faf454b095278b087f1a",
+        "size": 82349
       },
       "app/static/js/customize.js": {
-        "sha256": "192ee59fe980147fe54fc87d826c2d484a26aa4721129fbf18aa74527d4313d4",
-        "size": 36285
+        "sha256": "25f51113ae5ab97d799ea25ad8cd93a74d865479931ed163b26b066ec2153159",
+        "size": 36341
       },
       "app/static/js/operations.js": {
-        "sha256": "f4b0b18d3134d0132d9462382a09a192d53b09b41dd19f4014c7d6e9366725f8",
-        "size": 4922
+        "sha256": "8e5414831d478061a9cd36644a9a45fdc61794807381a8c5f9e6035aab3d3324",
+        "size": 5006
       },
       "app/static/js/push-sw.js": {
         "sha256": "ea9fee2ae04ba64cfe9fd1a5d6386bcfe03fcdb9d0a2c4c5dbd19a7ebfa055bd",
         "size": 1240
+      },
+      "app/static/js/vehicle-monthly.js": {
+        "sha256": "9bf8949cdeae6d5efae8f6431c5162d7a87a816e8c7d8b60eb70bdff85443a5e",
+        "size": 10110
       },
       "app/static/js/webpush.js": {
         "sha256": "a5837cf5d1d77f676e6094f0c932f0ad098af918e75a03f7264330799f8cbf84",
         "size": 7151
       },
       "app/templates/app.html": {
-        "sha256": "aa6524ddcac560d8630d2a22c8f7ec98b6ae586ea3ce41681dcd0baed2346f7c",
-        "size": 1104
+        "sha256": "07451e87289c06e328999ce500b68f0649d419caabd27ed20feaf9d454c7789f",
+        "size": 1166
+      },
+      "app/vehicle_monthly.py": {
+        "sha256": "19789b3e5c340fa3ab347c9acc8e2c99819c4435e883c5582dd1ae39408ae240",
+        "size": 12820
       },
       "app/webpush.py": {
         "sha256": "ddbcc5256a92a381eaa0d3cd1315ec7bcb7270fe6a331f0e790c48d8193b1fe9",
@@ -71,16 +87,16 @@
       }
     },
     "loader": 1,
-    "notes": "إضافة رفع وتغيير وحذف صورة رخصة السائق من نافذة التعديل، وإظهار مصغّر قابل للتكبير بجوار الاسم، بنفس طريقة السيارات وصلاحيات القسم. الحفاظ على الصور والبيانات والتواريخ والتخصيصات الحالية. حزمة تراكمية.",
+    "notes": "إظهار وإخفاء بنود المتابعة، وفصل أعمدة الصور للسيارات والرخص والتراخيص والمعدات، ونقل تعديل التواريخ لنافذة تعديل السجل. إضافة صورة التحديث الشهري المجمعة للجهات الأربع باسم الشهر والسنة، مع أرشيف نسخ محفوظ وتنزيل الصورة وملف الشهر والنسخ الاحتياطي. الحفاظ على البيانات والتخصيصات. حزمة تراكمية.",
     "product": "EwanGuardsSystem",
     "requirements_sha256": "bb8aadc559e45c18facd40bb4cc5b623514ef4159c0dbda48921482e7ca340ba",
-    "sequence": 54,
-    "version": "4.9.5"
+    "sequence": 55,
+    "version": "4.9.6"
   },
-  "signature": "vkdmbR+7EcWEInGvOCDgMFSpeB4n4Z7lCdSjvAOaFoIleoTDsS4CSNcTKYPSnIjn0RHclK7axu97LKwon+RYCw==",
+  "signature": "jk/rz2SJKla+J5ydt/7bE17fEKSQasNtgW9cyVwXxIudAzqp4k8FEwHaGMJGDzyNvkuW1zRLkRXOYMMxVNQvDw==",
   "download": {
-    "url": "https://raw.githubusercontent.com/mahmoudbassem283-sys/ewan-guards-updates/f337970097f52258e5f3981e34e9cd895aeb1d0b/releases/EwanGuards_driverPhotos495_SIGNED.zip",
-    "size": 97944,
-    "sha256": "dd0fdf34ccf48cfea3dbfb41ec41d8f1269c39db0fdd6a0a205248e17ae8e1e3"
+    "url": "https://raw.githubusercontent.com/mahmoudbassem283-sys/ewan-guards-updates/29a43e66274d2b58c6f2fc160f2a63e7fc544fcc/releases/EwanGuards_monthly496_SIGNED.zip",
+    "size": 117813,
+    "sha256": "934172f83028c4ada32b2b2eb4a4c64bd2f506541db5122f92a10ac730380b3f"
   }
 }

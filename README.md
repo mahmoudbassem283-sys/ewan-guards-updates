@@ -1,6 +1,6 @@
 # Ewan Guards signed updates
 
-Current release: **4.9.8**, sequence **57**.
+Current release: **4.9.9**, sequence **58**.
 
 Owner update source:
 
@@ -29,3 +29,5 @@ This repository contains signed distribution packages only. No customer database
 4.9.7: center photo/monthly headers and cells by stable column identity, including renamed columns; keep both saved monthly sheets and empty four-angle sheets at the primary thumbnail size (84 × 66 pixels). Full image and archive remain available on click. Validated with 17 functional monthly/vehicle UI assertions, JavaScript syntax checks and signed-package verification. Browser visual QA was unavailable because the remote browser could not reach the local test server. Published under the owner's standing authorization for code-only update packages.
 
 4.9.8: standalone image printing for primary car, driver-license, license and equipment photos. Monthly archive printing supports the selected revision or all current/previous immutable revisions, one image per A4 page with vehicle/month/revision/date captions. Checks section print permission, waits for all selected images, aborts on load failure, and restores the page after print/cancel. Validated with 34 functional DOM assertions including actual archive uploads and isolated print-content selection, JavaScript syntax checks and signed-package verification. Native print-dialog layout remains a target-device acceptance check. Published with explicit owner approval; no customer photos, records, credentials or private signing key are included.
+
+4.9.9: remaining-duration warnings use yellow for 21–30 days and red for 20 days or fewer, including expiry; alert summaries distinguish both stages. Monthly thumbnails open only the saved image; editing and revision archives are accessed through the vehicle editor. Adds column sorting/filtering and browser/account-scoped manual row ordering, default license urgency ordering, global dashboard label/order editing, isolated employee-detail printing with ID masking and section print permission, simplified compliance labels, direct saved Drive employee-file links, and removal of equipment quantity confirmation badges. Validated with 198 existing backend tests, 3 added stage/layout tests, 22 functional DOM assertions, signature/package checks, and a supervised signed 4.9.8-to-4.9.9 HTTP upgrade plus three start/stop cycles preserving data, settings, photos and Push subscriptions. Native browser/Windows print presentation remains a target-device acceptance check. Published with explicit owner approval; this package contains code only and no customer records, photographs or private signing key.
